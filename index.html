@@ -1,24 +1,238 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Playbook - Preescolar Sesión 13</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
+<header>
+<h1><span class="book-icon">📋</span> <strong>Playbook Sesión 13 Kínder 1</strong></h1>
+<div class="header-widgets">
+<div class="timer-container">
+<span id="timer">⏱️ 00:00</span>
+<button id="startStop">Start</button>
+<button id="reset">Reset</button>
+</div>
+<div class="theme-toggle">
+<i class="fas fa-sun"></i>
+<label class="switch">
+<input type="checkbox" id="theme-toggle-input">
+<span class="slider round"></span>
+</label>
+<i class="fas fa-moon"></i>
+</div>
+</div>
+</header>
+<div class="main-container">
+<aside class="activity-list">
+<h2>Actividades</h2>
+<ul>
+<li><a href="#activity-0">📝</a></li>
+<li><a href="#activity-1">1</a></li>
+<li><a href="#activity-2">2</a></li>
+<li><a href="#activity-3">3</a></li>
+<li><a href="#activity-4">4</a></li>
+</ul>
+<div class="sidebar-info">
+<p>💡 Cada actividad está diseñada para ser lúdica y captar la atención de los más pequeños.</p>
+<p>⏱️ Los tiempos son una guía. Sé flexible y adáptate al ritmo del grupo.</p>
+</div>
+</aside>
+<main class="content">
+<div class="progress-bar">
+<div class="progress"></div>
+</div>
+<button id="toggle-dialogues">Mostrar todos los diálogos</button>
+<div class="activity-card" id="activity-0">
+<h2><span class="book-icon">📝</span> De un Vistazo: Misión: ¿Qué Sigue? La Magia de los Patrones ABAB</h2>
+<p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para esta aventura de aprendizaje.</p>
+<div class="overview-table-container">
+<table>
+<thead>
+<tr>
+<th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+<th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>Objetivos de Aprendizaje:</strong>
+<ul>
+<li>Reconocer un patrón simple (ABAB).</li>
+<li>Continuar un patrón ABAB usando objetos concretos.</li>
+<li>Crear un patrón ABAB simple.</li>
+</ul>
+<strong>Secuencia Didáctica de la Misión:</strong>
+<ul>
+<li>⚡ Actividad 1: Bienvenida y Calentamiento Cerebral</li>
+<li>⚡ Actividad 2: Planteamiento del Reto y Cuento</li>
+<li>⚡ Actividad 3: ¡Manos a la Obra! (Actividad Principal)</li>
+<li>⚡ Actividad 4: Puesta en Común y Cierre de la Misión</li>
+</ul>
+<strong>Entregable Clave:</strong>
+<ul>
+<li>Identificación verbal del siguiente elemento en un patrón ABAB.</li>
+<li>Construcción de un patrón ABAB continuo utilizando objetos dados.</li>
+<li>Creación autónoma de un patrón ABAB de al menos 4 elementos.</li>
+</ul>
+</td>
+<td>
+<strong>Materiales Específicos:</strong>
+<ul>
+<li>Bloques LEGO Duplo de dos colores (ej. rojo y azul).</li>
+<li>Cuentas grandes de dos formas o colores.</li>
+<li>Tiras de cartulina.</li>
+</ul>
+<strong>Preparación Previa para ESTA Sesión:</strong>
+<ol>
+<li><strong>Revisión de Materiales:</strong> Asegurar que todos los materiales estén completos, limpios y listos para ser repartidos.</li>
+<li><strong>Preparación del Espacio:</strong> Organizar el aula para facilitar la actividad (círculo en el suelo, mesas de trabajo, espacio para moverse).</li>
+<li><strong>Familiarización:</strong> Leer el playbook completo para entender el flujo narrativo, los diálogos y las transiciones. Tener clara la historia o el reto que se presentará.</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="activity-card" id="activity-1">
+<h2>⚡ Actividad 1: ¡Ritmo Mágico: Un Calentamiento de Patrones! ⏰ 5 min</h2>
+<p>¡Comenzamos nuestra aventura de patrones con un juego de ritmo que nos pondrá a tono para descubrir la magia de lo que sigue!</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: ¡Activando Nuestros Sensores de Ritmo! ⏰ 3 min</h3>
+<p>Invita a los niños a formar un círculo, sentados o de pie, según el espacio lo permita. (Proyectar Diapositiva 1) Introduce un patrón de sonido y movimiento simple (ej. aplauso, golpe en las piernas, aplauso, golpe en las piernas). Realiza el patrón unas cuantas veces, de forma clara y rítmica. Pide a los niños que te sigan. Observa si logran identificar y replicar la secuencia.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Hola, exploradores de patrones! ¡Qué alegría verlos hoy! ¿Están listos para una misión súper divertida donde descubriremos un secreto que se esconde en todo lo que nos rodea? ¡Es el secreto de los patrones! Para calentar nuestros cuerpos y mentes, vamos a jugar a un juego de ritmo. Yo haré un sonido y un movimiento, y ustedes, con sus orejitas y ojitos bien abiertos, me siguen. ¡Atención! Primero: ¡Aplauso! (Haz un aplauso fuerte). Después: ¡Golpe en las piernas! (Golpea tus piernas). ¿Y qué sigue? ¡Exacto, aplauso! ¡Y luego, golpe en las piernas! ¡A-B-A-B! ¡Vamos, inténtenlo conmigo! ¡Aplauso, golpe, aplauso, golpe!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: ¡El Reto del Ritmo! ⏰ 2 min</h3>
+<p>(Proyectar Diapositiva 2) Una vez que los niños hayan replicado el patrón inicial, haz una pausa. Pregúntales: "¿Qué sigue?" para asegurarte de que están anticipando el siguiente elemento. Luego, repite el patrón varias veces, aumentando ligeramente la velocidad o invitando a voluntarios a "dirigir" el ritmo por un momento. Felicita su participación y su habilidad para seguir el patrón.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Wow, son unos genios del ritmo! ¡Lo hicieron perfecto! Ahora, si seguimos con: aplauso, golpe, aplauso, golpe... ¿Qué creen que viene después? ¡Síííí! ¡Un aplauso! ¡Son unos detectives de patrones! Este es un patrón A-B-A-B, porque se repite una y otra vez. ¡Vamos a hacerlo una vez más todos juntos, con mucha energía! ¡Aplauso, golpe, aplauso, golpe! ¡Excelente trabajo, equipo! ¡Ya estamos listos para nuestra siguiente aventura de patrones!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-2">
+<h2>⚡ Actividad 2: ¡El Tren Misterioso de Colores! ⏰ 10 min</h2>
+<p>Un misterioso tren de bloques nos ayudará a revelar el enigma de los patrones y a predecir qué color viene después.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Descifrando el Código del Tren ⏰ 5 min</h3>
+<p>(Proyectar Diapositiva 3) Ten preparado un tren corto de LEGO Duplo con un patrón ABAB (ej. rojo, azul, rojo, azul) y un bloque extra de cada color a mano, pero no visible. Muestra el tren a los niños y dales tiempo para observarlo. Luego, señala los bloques uno por uno, verbalizando los colores: "Rojo, azul, rojo, azul...". Pregunta a los niños qué color creen que debería seguir. Anímales a explicar su razonamiento.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Bravo, equipo! ¡Ya somos unos expertos en ritmos! Ahora, miren lo que encontré... ¡Un tren muy, muy especial! Este tren está hecho de bloques de colores, ¡y parece que tiene un mensaje secreto! Vamos a ver qué colores tiene: (señala cada bloque mientras lo nombras) ¡Rojo! ¡Azul! ¡Rojo! ¡Azul! Hmm... ¿Qué color creen que debería seguir para que nuestro tren siga siendo así de bonito y ordenado? Piensen, piensen... ¿Por qué creen que ese color? ¡Escucho sus ideas!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Confirmando la Predicción y Extendiendo el Tren ⏰ 5 min</h3>
+<p>(Proyectar Diapositiva 4) Escucha las respuestas de los niños. Si alguien dice el color correcto, felicítalo y pregunta "¿Cómo lo supiste?". Si se confunden, repite el patrón con ellos, enfatizando la alternancia. Una vez que identifiquen el color correcto (rojo), toma el bloque rojo y añádelo al tren, verbalizando el patrón completo nuevamente. Luego, pregunta qué color seguiría después del rojo (azul) y añade ese también, extendiendo el patrón. Esto les ayuda a consolidar el concepto de continuidad.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Son unos detectives de patrones, lo descubrieron! ¡Sí, el rojo! ¡Miren cómo encaja perfectamente! Nuestro tren sigue siendo rojo, azul, rojo, azul, ¡rojo! ¿Y ahora que tenemos rojo, azul, rojo, azul, rojo... qué color creen que vendría para que nuestro tren siga y siga con su patrón mágico? ¡Exacto! ¡El azul! ¡Vamos a añadirlo! ¡Qué emoción! Este tren es un patrón A-B-A-B. ¿Lo ven? ¡Es como una canción que se repite! ¡Ahora que sabemos cómo funcionan los patrones, estamos listos para crear los nuestros!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-3">
+<h2>⚡ Actividad 3: ¡Manos a la Obra: Construyendo Nuestro Mundo de Patrones! ⏰ 20 min</h2>
+<p>Es hora de que nuestros pequeños constructores y diseñadores den vida a sus propios patrones ABAB con bloques y cuentas, ¡la creatividad no tiene límites!</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: ¡Preparando Nuestras Estaciones Creativas! ⏰ 5 min</h3>
+<p>(Proyectar Diapositiva 5) Explica las dos estaciones de trabajo de forma clara y entusiasta. Muestra los materiales de cada estación. Para la estación 1, explica que construirán trenes largos con LEGO Duplo de dos colores, siguiendo el patrón ABAB. Para la estación 2, mostrarás cómo crear "collares" en las tiras de cartulina con cuentas, siguiendo un patrón de formas o colores. Divide a los niños en grupos pequeños y asigna las estaciones, asegurando que todos entiendan la tarea de crear patrones ABAB. Recuerda las normas para trabajar en estaciones (compartir, cuidar materiales).</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Súper, súper, súper! ¡Ya entendimos el secreto de los patrones! Ahora, ¿están listos para usar sus manos y crear sus propios patrones? ¡Vamos a tener dos estaciones mágicas! En la Estación de Trenes, construiremos trenes larguíiiisimos con nuestros bloques LEGO Duplo. ¡Recuerden el A-B-A-B! Un color, otro color, un color, otro color. ¡Y en la Estación de Collares, haremos unos collares padrísimos usando cuentas de diferentes formas o colores, también con patrón en nuestras tiras de cartulina! ¿Listos para ser constructores y diseñadores de patrones? ¡Vamos a formar nuestros equipos! ¡Recuerden compartir y cuidar los materiales! ¡A sus marcas, listos, a ordenar! ¡Que la aventura de la creación comience!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: ¡Creando y Descubriendo Patrones! ⏰ 10 min</h3>
+<p>(Proyectar Diapositiva 6) Circula activamente entre los grupos, observando cómo construyen y ofreciendo apoyo individualizado. Anima a los niños a describir sus patrones en voz alta mientras trabajan. Haz preguntas abiertas para fomentar el pensamiento crítico y la verbalización del patrón: "¿Qué color sigue aquí?", "¿Cómo sabes que ese es el siguiente?", "¿Qué pasaría si cambiamos el orden?", "¿Tu patrón es igual que el de tu amigo?". Ofrece ayuda si un niño se confunde, guiándolo para que identifique el error y lo corrija por sí mismo.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Wow, miren esos trenes! ¡Y esos collares! ¡Están quedando espectaculares! Recuerden, el patrón es como una canción que se repite. ¿Cuál es el sonido que hace su patrón? ¿Es rojo-azul-rojo-azul? ¡Excelente! Si tenemos un cuadrado, círculo, cuadrado, círculo... ¿Qué figura viene ahora? ¡Son unos artistas de los patrones! Si ven que un bloque no va, ¡no se preocupen! Podemos quitarlo y poner el correcto. ¡Eso es parte de aprender! ¡Sigan así, exploradores! ¡Me encanta ver cómo sus ideas cobran vida!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 3: ¡Consejos de Constructor y Exploración Guiada! ⏰ 5 min</h3>
+<p>(Proyectar Diapositiva 7) Continúa observando y brindando apoyo. Si algunos niños terminan rápido, anímalos a crear un patrón más largo, o a intentar un patrón diferente (si el tiempo lo permite y dominan el ABAB). Puedes sugerir que intercambien sus creaciones con un compañero y "lean" el patrón del otro. Asegúrate de que todos los niños hayan logrado crear al menos un patrón ABAB de 4 elementos. Da una señal de tiempo (ej. "quedan 5 minutos") para que se preparen para el cierre de la actividad.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Qué increíble ver todo lo que están creando! Si ya terminaron su tren o collar, ¿qué tal si lo hacemos más largo? ¡O tal vez pueden mostrarle su patrón a un amigo y ver si él puede adivinar qué sigue! Recuerden, lo importante es que el patrón se repita, ¡siempre igual! ¡Estamos haciendo un trabajo fantástico! ¡En unos minutitos, vamos a compartir todas estas maravillas con el grupo!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-4">
+<h2>⚡ Actividad 4: ¡La Gran Exhibición de Patrones y Danza! ⏰ 5 min</h2>
+<p>Es el momento de compartir nuestras creaciones y celebrar el aprendizaje con una divertida danza de patrones.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: ¡Compartiendo Nuestras Obras Maestras! ⏰ 3 min</h3>
+<p>(Proyectar Diapositiva 8) Pide a los niños que regresen al círculo (o al área designada) con sus creaciones (trenes o collares). Invita a algunos voluntarios (o a todos, si el tiempo lo permite) a mostrar su tren o collar y a "leer" su patrón en voz alta para el grupo. Anima a los demás niños a escuchar y confirmar si el patrón es correcto. Refuerza positivamente cada intento.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Atención, equipo de patrones! ¡El tiempo de construcción ha terminado! ¡Es hora de que todos veamos las obras de arte que crearon! ¡Acerquémonos y formemos un círculo para compartir! ¿Quién quiere ser el primero en mostrar su tren o su collar? ¡No se preocupen, todos tendrán oportunidad! ¡Vamos a leer juntos el patrón que creó nuestro amigo/a! Si es un tren, "rojo, azul, rojo, azul..." ¡Magnífico! ¡Si es un collar, "círculo, cuadrado, círculo, cuadrado..."! ¡Excelente trabajo, constructores!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: ¡Danza de Patrones: Celebrando Nuestro Aprendizaje! ⏰ 2 min</h3>
+<p>(Proyectar Diapositiva 9) Guía a los niños en una "danza de patrones" simple, usando la estrategia de transición sugerida. Por ejemplo: un paso adelante (A), un giro (B), un paso adelante (A), un giro (B). Repite la secuencia varias veces, verbalizando los movimientos mientras los realizan. Felicítalos por su esfuerzo, su aprendizaje y por ser unos increíbles exploradores de patrones. Recoge los materiales de forma ordenada.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡MISIÓN CUMPLIDA, SÚPER PATRULLA! ¡Hoy descubrimos la magia de los patrones ABAB y creamos cosas increíbles! ¿Qué fue lo que más les gustó de esta aventura? ¡Para celebrar que somos unos expertos en patrones, vamos a hacer nuestra propia danza de patrones! ¡Todos de pie! ¡Un paso adelante (A), un giro (B), un paso adelante (A), un giro (B)! ¡Vamos a hacerlo una y otra vez, siguiendo nuestro propio patrón de baile! ¡Así celebramos que aprendimos muchísimo! ¡Son lo máximo! ¡Felicidades, campeones! ¡Nos vemos en la próxima misión de patrones!</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<script src="script.js"></script>
 </body>
-
 </html>
